@@ -1,5 +1,5 @@
-import type { SearchResult } from '../../entities'
-import type { ProductRepository } from '../../repositories/ProductRepository'
+import type { SearchResult } from '../entities'
+import type { ProductRepository } from '../repositories/ProductRepository'
 
 export class ProductGetAll {
   private readonly _productRepository: ProductRepository
